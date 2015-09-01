@@ -61,13 +61,13 @@
   <!-- profiles -->
   <profiles>
     <profile>
-      <id>local</id>
+      <id>firefox_local</id>
       <properties>
         <env>local</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url>http://localhost/</site.url>
+        <site.url>http://192.168.1.95/</site.url>
         <browser.name>firefox</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
@@ -77,39 +77,39 @@
       </activation>
     </profile>
     <profile>
-      <id>dev</id>
+      <id>ie_local</id>
       <properties>
         <env>dev</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url>http://devhost/</site.url>
-        <browser.name>firefox</browser.name>
+        <site.url>http://192.168.1.95/</site.url>
+        <browser.name>ie</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
     </profile>
     <profile>
-      <id>test</id>
+      <id>chrome_local</id>
       <properties>
         <env>test</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url>http://testhost/</site.url>
-        <browser.name>firefox</browser.name>
+        <site.url>http://192.168.1.95/</site.url>
+        <browser.name>chrome</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
     </profile>
     <profile>
-      <id>prod</id>
+      <id>firefox_linux</id>
       <properties>
         <env>prod</env>
         <user.username></user.username>
         <user.password></user.password>
-        <grid2.hub></grid2.hub>
-        <site.url>http://prodhost/</site.url>
+        <grid2.hub>http://192.168.56.101:4444/wd/hub</grid2.hub>
+        <site.url>http://192.168.1.95/</site.url>
         <browser.name>firefox</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
