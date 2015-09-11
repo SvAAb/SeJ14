@@ -1,4 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.242 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.789 sec <<< FAILURE! - in TestSuite
+testAddValidAndRemoveFilm(SA.AddValidAndRemoveFilmTest)  Time elapsed: 32.805 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=45.0.2454.85)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'EVM-F', ip: '192.168.1.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_80'
+*** Element info: {Using=name, value=name}
+Session ID: 331f6df729b4480289c098855a693e71
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\FLoRi\AppData\Local\Temp\scoped_dir20740_21794}, rotatable=false, locationContextEnabled=true, version=45.0.2454.85, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:431)
+	at org.openqa.selenium.By$ByName.findElement(By.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at SA.AddValidAndRemoveFilmTest.testAddValidAndRemoveFilm(AddValidAndRemoveFilmTest.java:25)
+

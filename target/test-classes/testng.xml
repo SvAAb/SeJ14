@@ -3,8 +3,8 @@
 <suite name="Tests" verbose="5" data-provider-thread-count="1">
 	<test name="Test1">
 		<parameter name="path" value="/"/>
-		<classes>
+		<classes>		   
 		    <class name="SA.LoginTest"/>
 		</classes>
-	</test>  
+	</test>    
 </suite>

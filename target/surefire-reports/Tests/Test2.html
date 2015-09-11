@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Test1</title>
+<title>TestNG:  Test2</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Test1</h2><table border='1' align="center">
+<h2 align='center'>Test2</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 11 11:55:58 MSK 2015</td>
+<td>Started on:</td><td>Fri Sep 11 11:51:50 MSK 2015</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34805 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30446 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,37 +76,40 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='SA.AddValidAndRemoveFilmTest.testAddValidAndRemoveFilm()'><b>testAddValidAndRemoveFilm</b><br>Test class: SA.AddValidAndRemoveFilmTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=45.0.2454.85)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+Command duration or timeout: 30.09 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
 System info: host: &apos;EVM-F&apos;, ip: &apos;192.168.1.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80&apos;
-*** Element info: {Using=name, value=name}
-Session ID: 331f6df729b4480289c098855a693e71
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\FLoRi\AppData\Local\Temp\scoped_dir20740_21794}, rotatable=false, locationContextEnabled=true, version=45.0.2454.85, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+*** Element info: {Using=id, value=username}
+Session ID: 7babd0bc-d765-47d0-9bce-d1f0e13e9a0a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:431)
-	at org.openqa.selenium.By$ByName.findElement(By.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:399)
+	at org.openqa.selenium.By$ById.findElement(By.java:215)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at SA.AddValidAndRemoveFilmTest.testAddValidAndRemoveFilm(AddValidAndRemoveFilmTest.java:25)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1183435391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1183435391'><pre>org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=45.0.2454.85)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
+	at SA.AddValidAndRemoveFilmTest.testAddValidAndRemoveFilm(AddValidAndRemoveFilmTest.java:19)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
 System info: host: &apos;EVM-F&apos;, ip: &apos;192.168.1.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80&apos;
-*** Element info: {Using=name, value=name}
-Session ID: 331f6df729b4480289c098855a693e71
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\FLoRi\AppData\Local\Temp\scoped_dir20740_21794}, rotatable=false, locationContextEnabled=true, version=45.0.2454.85, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/FLoRi/AppData/Local/Temp/anonymous2029528722928646133webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/FLoRi/AppData/Local/Temp/anonymous2029528722928646133webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace723357457", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace723357457'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;EVM-F&apos;, ip: &apos;192.168.1.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80&apos;
+*** Element info: {Using=id, value=username}
+Session ID: 7babd0bc-d765-47d0-9bce-d1f0e13e9a0a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -115,10 +118,10 @@ Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browser
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:431)
-	at org.openqa.selenium.By$ByName.findElement(By.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:399)
+	at org.openqa.selenium.By$ById.findElement(By.java:215)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at SA.AddValidAndRemoveFilmTest.testAddValidAndRemoveFilm(AddValidAndRemoveFilmTest.java:25)
+	at SA.AddValidAndRemoveFilmTest.testAddValidAndRemoveFilm(AddValidAndRemoveFilmTest.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -146,9 +149,16 @@ Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browser
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;EVM-F&apos;, ip: &apos;192.168.1.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_80&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/FLoRi/AppData/Local/Temp/anonymous2029528722928646133webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/FLoRi/AppData/Local/Temp/anonymous2029528722928646133webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
 </pre></div></td>
-<td>32</td>
-<td>SA.AddValidAndRemoveFilmTest@588c1ac9</td></tr>
+<td>30</td>
+<td>SA.AddValidAndRemoveFilmTest@685d62a4</td></tr>
 </table><p>
 </body>
 </html>
